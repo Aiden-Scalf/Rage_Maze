@@ -1,8 +1,65 @@
-Rage maze is a love project that instills resiliency into the player.This maze was made to test the very limit of someones patience. A large issue that has evolved with the advancement of technology is the lack of resiliency we as humans have. It seems like now adays we quit when things become slightly dificult or try to find a easy way out with technology.Without resistance there is no growth. Will you continue to grow through the pain that is Rage Maze or will you just give up?
+# Rage Maze
 
-The project is run by setting up a maze using a large grid of zeros and ones from a text file. The player can be moved using the track pad of the laptop.If the player touches the maze walls, collision of both of the walls and the players rect(the hit box)will cause the player Weenie and the goal ketchup to reset their original positions.When Weenie fnally gets close enough to the goal ketchup, Ketchup will teleport. This happens three times. At all times with the help of pygame.mixer, the phrase "loud noises !" is played constantly. Upon reset pygame.mixer will play "sucks to suck".When Weenie finally collides with ketchup, the player will be unable to move and the statement "took you long enough " will post on the screen.
+> *Without resistance, there is no growth.*
 
-Start by downloading pygame and sys and importing them. Please use visual studio code or pycharm
+Rage Maze is a small Pygame maze game built to test your patience. Guide **Weenie** through a tight maze to reach the **Ketchup**, but one touch of a wall sends you right back to the start. Loud noises play the whole time, and the goal does not make it easy.
 
-To play the game you must use the mouse pad on the computer to progress through
-the game and try to reach the goal in the maze.
+Nowadays it's tempting to quit the moment something gets slightly difficult, or to look for a shortcut. Rage Maze is a love project about doing the opposite: pushing through frustration instead of giving up.
+
+<!-- Add a screenshot or GIF here, e.g. ![Gameplay](screenshot.png) -->
+
+## How It Works
+
+- **Controls:** Move Weenie with your laptop's **trackpad / mouse**.
+- **Walls:** Touching a wall (checked with the player's hitbox rect) resets Weenie *and* Ketchup to their starting positions.
+- **The goal runs away:** When Weenie gets close to Ketchup, Ketchup **teleports**. This happens **three times**.
+- **Winning:** Once Weenie finally collides with Ketchup, movement is locked and the screen reads **"took you long enough."**
+- **Audio:** Using `pygame.mixer`, the phrase "loud noises!" loops constantly, and every reset plays "sucks to suck."
+
+## Getting Started
+
+### Requirements
+
+- Python 3
+- [Pygame](https://www.pygame.org/)
+
+### Install
+
+```bash
+git clone https://github.com/Aiden-Scalf/Rage_Maze.git
+cd Rage_Maze
+pip install pygame
+```
+
+### Run
+
+```bash
+python ragemaze_update.py
+```
+
+Run it from inside the project folder so the game can find its images, sounds, and maze file. You can also open the project in VS Code or PyCharm and run `ragemaze_update.py` from there.
+
+## Project Structure
+
+| File | Purpose |
+| --- | --- |
+| `ragemaze_update.py` | Main game script |
+| `mazetiles` | Maze layout: a grid of `0`s and `1`s read from a text file |
+| `Walls.png` | Wall tile image |
+| `Glizzy 40x40.png` | Player sprite (Weenie) |
+| `Ketchup 50x50.png` | Goal sprite |
+| `Rage Game Background.png` | Background image |
+| `loud_noises.wav` | Looping background audio |
+| `restart.wav` | Sound played on reset |
+
+## How the Maze Is Built
+
+The maze is stored as a large grid of zeros and ones in the `mazetiles` file. Each cell becomes either open space or a wall tile when the game loads, so you can edit the file to design your own (even meaner) maze.
+
+## Contributing
+
+Ideas welcome: new mazes, more sound effects, difficulty settings, or a timer. Open an issue or submit a pull request.
+
+## Author
+
+Made by [Aiden-Scalf](https://github.com/Aiden-Scalf).
