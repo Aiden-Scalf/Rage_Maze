@@ -78,3 +78,7 @@ Ideas welcome: new mazes, more sound effects, difficulty settings, or a timer. O
 ## Author
 
 Made by [Aiden-Scalf](https://github.com/Aiden-Scalf).
+
+## Running Tests
+  `pip install pytest` then run `pytest` from the repo root.
+  Linting: `pip install flake8` then `flake8 . --max-line-length=120`.
