@@ -1,5 +1,6 @@
 # Rage Maze
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Aiden-Scalf/Rage_Maze/badge)](https://scorecard.dev/viewer/?uri=github.com/Aiden-Scalf/Rage_Maze)
+
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/YOUR_ID/badge)](https://www.bestpractices.dev/projects/YOUR_ID)
 
 > *Without resistance, there is no growth.*
