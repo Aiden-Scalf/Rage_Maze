@@ -17,7 +17,22 @@ Nowadays it's tempting to quit the moment something gets slightly difficult, or 
 - **Audio:** Using `pygame.mixer`, the phrase "loud noises!" loops constantly, and every reset plays "sucks to suck."
 
 ## Getting Started
+## Installation
+1. Install Python 3.x
+2. Install dependencies: `pip install pygame`
+3. Clone the repo: `git clone https://github.com/Aiden-Scalf/Rage_Maze.git`
 
+## How to Run
+`python main.py`
+
+## How to Play
+Guide the cursor through the maze to the goal without touching the walls.
+Touching a wall sends you back to the start.
+
+## Controls and Interface
+**Input:** trackpad/mouse movement controls the cursor. Press ESC to quit.
+**Output:** a game window shows the maze, your cursor, and the current
+attempt count. A message appears when you reach the goal.
 ### Requirements
 
 - Python 3
