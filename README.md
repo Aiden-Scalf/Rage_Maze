@@ -1,8 +1,7 @@
 # Rage Maze
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Aiden-Scalf/Rage_Maze/badge)](https://scorecard.dev/viewer/?uri=github.com/Aiden-Scalf/Rage_Maze)
 
-[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/YOUR_ID/badge)](https://www.bestpractices.dev/projects/16244)
-
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16244/badge)](https://www.bestpractices.dev/projects/16244)
 > *Without resistance, there is no growth.*
 
 Rage Maze is a small Pygame maze game built to test your patience. Guide **Weenie** through a tight maze to reach the **Ketchup**, but one touch of a wall sends you right back to the start. Loud noises play the whole time, and the goal does not make it easy.
